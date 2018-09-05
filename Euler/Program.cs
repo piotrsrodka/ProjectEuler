@@ -9,7 +9,7 @@ namespace Euler
             int numberOfRuns = 1;
 
             /* Choose your problem ;P */
-            int problemNumber = 44;
+            int problemNumber = 01;
 
             string eulerProblemName = "Euler.Euler" + problemNumber;
             var eulerType = Type.GetType(eulerProblemName);

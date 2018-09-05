@@ -92,6 +92,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\p022_names.txt" />
+    <Compile Include="euler01.cs" />
+    <Content Include="Old Euler\euler10.c" />
+    <Content Include="Old Euler\euler12.c" />
+    <Content Include="Old Euler\euler13.c" />
+    <Content Include="Old Euler\euler13.txt" />
+    <Content Include="Old Euler\euler14.c" />
+    <Content Include="Old Euler\euler15.cpp" />
+    <Content Include="Old Euler\euler16.cpp" />
+    <Content Include="Old Euler\euler16_.cpp" />
+    <Content Include="Old Euler\euler2.c" />
+    <Content Include="Old Euler\euler3.c" />
+    <Content Include="Old Euler\euler4.c" />
+    <Content Include="Old Euler\euler6.c" />
+    <Content Include="Old Euler\euler7.c" />
+    <Content Include="Old Euler\euler8.c" />
+    <Content Include="Old Euler\euler9.c" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

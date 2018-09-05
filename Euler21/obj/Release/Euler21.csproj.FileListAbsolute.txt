@@ -1,8 +1,0 @@
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\bin\Release\Euler21.exe.config
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\bin\Release\Euler21.exe
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\bin\Release\Euler21.pdb
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\bin\Release\Euler20.exe
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\bin\Release\Euler20.pdb
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\obj\Release\Euler21.csprojResolveAssemblyReference.cache
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\obj\Release\Euler21.exe
-c:\Users\pit\Dropbox\Coding\Euler\Euler21\obj\Release\Euler21.pdb
