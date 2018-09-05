@@ -1,0 +1,28 @@
+c:\users\pit\documents\visual studio 2012\Projects\Euler\Euler\bin\Debug\Euler.exe.config
+c:\users\pit\documents\visual studio 2012\Projects\Euler\Euler\bin\Debug\Euler.exe
+c:\users\pit\documents\visual studio 2012\Projects\Euler\Euler\bin\Debug\Euler.pdb
+c:\users\pit\documents\visual studio 2012\Projects\Euler\Euler\obj\Debug\Euler.csprojResolveAssemblyReference.cache
+c:\users\pit\documents\visual studio 2012\Projects\Euler\Euler\obj\Debug\Euler.exe
+c:\users\pit\documents\visual studio 2012\Projects\Euler\Euler\obj\Debug\Euler.pdb
+c:\Users\pit\Dropbox\Coding\Euler\Euler\bin\Debug\Euler.exe.config
+c:\Users\pit\Dropbox\Coding\Euler\Euler\obj\Debug\Euler.exe
+c:\Users\pit\Dropbox\Coding\Euler\Euler\obj\Debug\Euler.pdb
+c:\Users\pit\Dropbox\Coding\Euler\Euler\bin\Debug\Euler.exe
+c:\Users\pit\Dropbox\Coding\Euler\Euler\bin\Debug\Euler.pdb
+c:\Users\pit\Dropbox\Coding\Euler\Euler\obj\Debug\Euler.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\bin\Debug\Euler.exe.config
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\bin\Debug\Euler.exe
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\bin\Debug\Euler.pdb
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\obj\Debug\Euler.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\obj\Debug\Euler.exe
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\obj\Debug\Euler.pdb
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\bin\Debug\Common.exe
+C:\Users\Piotr\Dropbox\Coding\Euler\Euler\bin\Debug\Common.pdb
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\bin\Debug\Euler.exe.config
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\obj\Debug\Euler.exe
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\obj\Debug\Euler.pdb
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\bin\Debug\Euler.exe
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\bin\Debug\Euler.pdb
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\bin\Debug\Common.pdb
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\obj\Debug\Euler.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Dropbox\Coding\Sources\Euler\Euler\bin\Debug\Common.dll

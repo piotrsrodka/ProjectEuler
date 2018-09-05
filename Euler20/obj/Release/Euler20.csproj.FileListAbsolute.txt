@@ -1,0 +1,5 @@
+c:\Users\pit\Dropbox\Coding\Euler\Euler20\bin\Release\Euler20.exe.config
+c:\Users\pit\Dropbox\Coding\Euler\Euler20\bin\Release\Euler20.exe
+c:\Users\pit\Dropbox\Coding\Euler\Euler20\bin\Release\Euler20.pdb
+c:\Users\pit\Dropbox\Coding\Euler\Euler20\obj\Release\Euler20.exe
+c:\Users\pit\Dropbox\Coding\Euler\Euler20\obj\Release\Euler20.pdb

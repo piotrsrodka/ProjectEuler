@@ -1,0 +1,6 @@
+c:\Users\pit\Dropbox\Coding\Euler\Euler22\bin\Release\Euler22.exe.config
+c:\Users\pit\Dropbox\Coding\Euler\Euler22\bin\Release\Euler22.exe
+c:\Users\pit\Dropbox\Coding\Euler\Euler22\bin\Release\Euler22.pdb
+c:\Users\pit\Dropbox\Coding\Euler\Euler22\obj\Release\Euler22.csprojResolveAssemblyReference.cache
+c:\Users\pit\Dropbox\Coding\Euler\Euler22\obj\Release\Euler22.exe
+c:\Users\pit\Dropbox\Coding\Euler\Euler22\obj\Release\Euler22.pdb

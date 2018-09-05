@@ -1,0 +1,6 @@
+C:\Users\pit\Dropbox\Coding\Euler\Euler23\bin\Release\Euler23.exe.config
+C:\Users\pit\Dropbox\Coding\Euler\Euler23\bin\Release\Euler23.exe
+C:\Users\pit\Dropbox\Coding\Euler\Euler23\bin\Release\Euler23.pdb
+C:\Users\pit\Dropbox\Coding\Euler\Euler23\obj\Release\Euler23.csprojResolveAssemblyReference.cache
+C:\Users\pit\Dropbox\Coding\Euler\Euler23\obj\Release\Euler23.exe
+C:\Users\pit\Dropbox\Coding\Euler\Euler23\obj\Release\Euler23.pdb

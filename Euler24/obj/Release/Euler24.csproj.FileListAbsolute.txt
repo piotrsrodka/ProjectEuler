@@ -1,0 +1,6 @@
+C:\Users\pit\Dropbox\Coding\Euler\Euler24\bin\Release\Euler24.exe.config
+C:\Users\pit\Dropbox\Coding\Euler\Euler24\bin\Release\Euler24.exe
+C:\Users\pit\Dropbox\Coding\Euler\Euler24\bin\Release\Euler24.pdb
+C:\Users\pit\Dropbox\Coding\Euler\Euler24\obj\Release\Euler24.exe
+C:\Users\pit\Dropbox\Coding\Euler\Euler24\obj\Release\Euler24.pdb
+C:\Users\pit\Dropbox\Coding\Euler\Euler24\obj\Release\Euler24.csprojResolveAssemblyReference.cache
