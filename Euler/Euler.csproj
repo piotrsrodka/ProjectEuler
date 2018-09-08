@@ -92,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\p022_names.txt" />
-    <Compile Include="euler01.cs" />
+    <Compile Include="Euler01.cs" />
     <Content Include="Old Euler\euler10.c" />
     <Content Include="Old Euler\euler12.c" />
     <Content Include="Old Euler\euler13.c" />

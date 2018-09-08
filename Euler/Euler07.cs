@@ -2,7 +2,10 @@
 
 namespace Euler
 {
-    public class Euler07 : IEulerProblem
+    /// <summary>
+    /// https://projecteuler.net/problem=7
+    /// </summary>
+    public class Euler7 : IEulerProblem
     {
         public void Start()
         {

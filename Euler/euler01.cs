@@ -1,8 +1,11 @@
 using System;
 
-namespace Euler {
-
-	public class Euler1 : IEulerProblem
+namespace Euler
+{
+    /// <summary>
+    /// https://projecteuler.net/problem=1
+    /// </summary>
+    public class Euler1 : IEulerProblem
 	{
 		public void Start() 
 		{

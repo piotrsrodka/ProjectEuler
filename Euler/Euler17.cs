@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace Euler
 {
-    public class Euler17
+    public class Euler17 : IEulerProblem
     {
-        public static void Start()
+        public void Start()
         {
             int letters = 0;
 
@@ -110,12 +110,8 @@ namespace Euler
 
             letters += one + thousand;
 
-            Console.WriteLine("{0}", int.MaxValue);
-
             Console.WriteLine("{0}", units);
-
             Console.WriteLine("Letters Total: {0}", letters);
-            Console.ReadKey();
         }
     }
 }

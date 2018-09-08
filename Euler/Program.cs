@@ -8,9 +8,14 @@ namespace Euler
         {
             int numberOfRuns = 1;
 
-            /* Choose your problem ;P */
-            int problemNumber = 01;
-
+            /* Choose your problem ;P 
+             * Descritpion is available at:
+             * https://projecteuler.net/problem=<problemNumber>
+             * or
+             * https://projecteuler.net/archives
+             */
+            int problemNumber = 17;
+            
             string eulerProblemName = "Euler.Euler" + problemNumber;
             var eulerType = Type.GetType(eulerProblemName);
             
@@ -30,7 +35,6 @@ namespace Euler
             Console.WriteLine();
             Console.WriteLine("Elapsed time: {0} ms ({1} runs average)", 
                 watch.ElapsedMilliseconds / numberOfRuns, numberOfRuns);
-            Console.ReadKey();
         }
     }
 }
