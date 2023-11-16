@@ -1,17 +1,16 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 
 namespace Common
 {
     public class BigInt
     {
         public int Digits { get; set; }
-        public byte[] a { get; set; }
+        public byte[] A { get; set; }
 
         public BigInt(int digits)
         {
             Digits = digits;
-            a = new byte[Digits];
+            A = new byte[Digits];
         }
 
         public BigInt(long number)
@@ -19,11 +18,11 @@ namespace Common
             Digits = 1;
             long copy = number;
             while ((copy /= 10) > 0) Digits++;
-            a = new byte[Digits];
+            A = new byte[Digits];
 
             for (int i = 0; i < Digits; i++)
             {
-                a[i] = (byte)(number % 10);
+                A[i] = (byte)(number % 10);
                 number /= 10;
             }
         }
@@ -40,7 +39,7 @@ namespace Common
 
                 for (int j = 0; j < that.Digits; j++)
                 {
-                    int product = @this.a[i] * that.a[j] + remainder;
+                    int product = @this.A[i] * that.A[j] + remainder;
 
                     if ((product / 10) > 0)
                     {
@@ -51,10 +50,10 @@ namespace Common
                         remainder = 0;
                     }
 
-                    subProduct[i].a[j] = (byte)(product % 10);
+                    subProduct[i].A[j] = (byte)(product % 10);
                 }
 
-                subProduct[i].a[that.Digits] += (byte)remainder;
+                subProduct[i].A[that.Digits] += (byte)remainder;
                 subProduct[i].Exp(i);
             }
 
@@ -67,7 +66,7 @@ namespace Common
 
                 for (int i = 0; i < @this.Digits && i <= j + 1; i++)
                 {
-                    subSum += subProduct[i].a[j];
+                    subSum += subProduct[i].A[j];
                 }
 
                 if (subSum > 9)
@@ -80,18 +79,18 @@ namespace Common
                     rem = 0;
                 }
 
-                result.a[j] = (byte)subSum;
+                result.A[j] = (byte)subSum;
             }
 
             int checkSum = 0;
 
-            foreach (byte a in result.a) checkSum += a;
+            foreach (byte a in result.A) checkSum += a;
 
             if (checkSum > 0)
             {
                 int digit = result.Digits - 1;
 
-                while (result.a[digit] == 0)
+                while (result.A[digit] == 0)
                 {
                     digit--;
                 }
@@ -100,7 +99,7 @@ namespace Common
 
                 for (int i = 0; i < newResult.Digits; i++)
                 {
-                    newResult.a[i] = result.a[i];
+                    newResult.A[i] = result.A[i];
                 }
 
                 result = newResult;
@@ -128,7 +127,7 @@ namespace Common
         private void TenTimes()
         {
             int RealDigits = Digits - 1;
-            while (this.a[RealDigits] == 0)
+            while (this.A[RealDigits] == 0)
             {
                 --RealDigits;
                 if (RealDigits < 0) return;
@@ -137,9 +136,9 @@ namespace Common
 
             for (int i = RealDigits; i > 0; --i)
             {
-                a[i] = a[i - 1];
+                A[i] = A[i - 1];
             }
-            a[0] = 0;
+            A[0] = 0;
         }
 
         public static BigInt operator +(BigInt thisa, BigInt that)
@@ -160,7 +159,7 @@ namespace Common
 
             for (int i = 0; i < minDigits; i++)
             {
-                sum = thisa.a[i] + that.a[i] + remainder;
+                sum = thisa.A[i] + that.A[i] + remainder;
 
                 if (sum > 10)
                 {
@@ -172,14 +171,14 @@ namespace Common
                     remainder = 0;
                 }
 
-                result.a[i] = (byte)sum;
+                result.A[i] = (byte)sum;
             }
 
             sum = 0;
 
             while (remainder > 0 && minDigits < bigger.Digits)
             {
-                sum = bigger.a[minDigits] + (byte)remainder;
+                sum = bigger.A[minDigits] + (byte)remainder;
 
                 if (sum > 9)
                 {
@@ -191,15 +190,15 @@ namespace Common
                     remainder = 0;
                 }
 
-                result.a[minDigits] = (byte)sum;
+                result.A[minDigits] = (byte)sum;
                 minDigits++;
             }
 
-            result.a[minDigits] = (byte)remainder;
+            result.A[minDigits] = (byte)remainder;
 
             for (int i = minDigits + 1; i < bigger.Digits; i++)
             {
-                result.a[i] = bigger.a[i];
+                result.A[i] = bigger.A[i];
             }
 
             return result;
@@ -211,7 +210,7 @@ namespace Common
 
             for (int i = Digits - 1; i >= 0; i--)
             {
-                sb.Append(a[i]);
+                sb.Append(A[i]);
             }
 
             return sb.ToString();
