@@ -1,10 +1,15 @@
-﻿namespace Euler {
+﻿using System.Diagnostics;
+
+namespace Euler
+{
 
     public class Progam
     {
+        private static bool debug = false;
+
         public static void Main()
         {
-            int numberOfRuns = 2;
+            int numberOfRuns = 5;
 
             /* Choose your problem ;P 
              * Descritpion is available at:
@@ -12,7 +17,7 @@
              * or
              * https://projecteuler.net/archives
              */
-            int problemNumber = 54;
+            int problemNumber = 55;
 
             string eulerProblemName = "Euler.Euler" + problemNumber;
             var eulerType = Type.GetType(eulerProblemName);
@@ -28,11 +33,19 @@
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
 
+            if (debug) Console.SetOut(TextWriter.Null);
+            
             for (int i = 0; i < numberOfRuns; i++)
             {
                 problem?.Start();
             }
-
+          
+            if (debug)
+            {
+                var standardOutput = new StreamWriter(Console.OpenStandardOutput());
+                standardOutput.AutoFlush = true;
+                Console.SetOut(standardOutput);
+            }
             watch.Stop();
 
             Console.WriteLine();
