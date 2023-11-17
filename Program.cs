@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace Euler
+﻿namespace Euler
 {
 
     public class Progam
@@ -17,7 +15,7 @@ namespace Euler
              * or
              * https://projecteuler.net/archives
              */
-            int problemNumber = 56;
+            int problemNumber = 58;
 
             string eulerProblemName = "Euler.Euler" + problemNumber;
             var eulerType = Type.GetType(eulerProblemName);
