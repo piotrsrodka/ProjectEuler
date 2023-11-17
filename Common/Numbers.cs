@@ -1,4 +1,6 @@
-﻿namespace Common
+﻿using System.Numerics;
+
+namespace Common
 {
     public static class Numbers
     {
@@ -26,6 +28,25 @@
             }
 
             return digits.ToArray();
+        }
+
+        public static int[] ToDigits(BigInteger number)
+        {
+            var digits = new List<int>();
+
+            while (number > 0)
+            {
+                digits.Add((int)(number % 10));
+                number /= 10;
+            }
+
+            return digits.ToArray();
+        }
+
+        public static long DigitsSum(BigInteger number)
+        {
+            var digits = ToDigits(number);
+            return digits.Sum();
         }
 
         public static int ToNumber(int[] digits)
