@@ -7,7 +7,7 @@
 
         public static void Main()
         {
-            int numberOfRuns = 10;
+            int numberOfRuns = 1;
 
             /* Choose your problem ;P 
              * Descritpion is available at:
@@ -15,7 +15,7 @@
              * or
              * https://projecteuler.net/archives
              */
-            int problemNumber = 61;
+            int problemNumber = 66;
 
             string eulerProblemName = "Euler.Euler" + problemNumber;
             var eulerType = Type.GetType(eulerProblemName);
