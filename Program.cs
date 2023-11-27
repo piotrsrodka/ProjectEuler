@@ -15,7 +15,7 @@
              * or
              * https://projecteuler.net/archives
              */
-            int problemNumber = 66;
+            int problemNumber = 80;
 
             string eulerProblemName = "Euler.Euler" + problemNumber;
             var eulerType = Type.GetType(eulerProblemName);

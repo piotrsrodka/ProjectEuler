@@ -19,23 +19,27 @@ namespace Euler
             int limit = 10000;
             List<int> Amicables = new List<int>();
             int b;
+
             for (int a = 4; a < limit; a++)
             {
-                b = d(a);
-                if (b != a && d(b) == a)
+                b = Divisors(a);
+
+                if (b != a && Divisors(b) == a)
                 {
                     Amicables.Add(a);                    
                 }
             }
+
             foreach (var item in Amicables)
             {
                 Console.Write(item + ", ");
             }
+
             Console.WriteLine("\nSum of Amicables: {0}", Amicables.Sum());
             Console.ReadKey();
         }
 
-        private static int d(int a)
+        private static int Divisors(int a)
         {
             List<int> properDivisors = new List<int>();
             int up = a / 2;
@@ -46,6 +50,7 @@ namespace Euler
                     properDivisors.Add(i);                    
                 }
             }
+
             return properDivisors.Sum();
         }
     }

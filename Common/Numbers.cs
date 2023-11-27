@@ -4,6 +4,21 @@ namespace Common
 {
     public static class Numbers
     {
+        public static List<int> Divisors(int number)
+        {
+            List<int> properDivisors = new List<int>();
+
+            for (int i = 1; i <= number / 2; i++)
+            {
+                if (number % i == 0)
+                {
+                    properDivisors.Add(i);
+                }
+            }
+
+            return properDivisors;
+        }
+
         public static HashSet<int> ToDigitSet(int number)
         {
             var digits = new HashSet<int>();
